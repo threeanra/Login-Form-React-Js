@@ -7,7 +7,7 @@ const RegisterPage = () => {
       <FormRegister />
       <p className="mt-5 text-center">
         Do you have an account?{" "}
-        <a href="/login" className="text-blue-500 font-semibold">
+        <a href="/" className="text-blue-500 font-semibold">
           Sign In
         </a>
       </p>
