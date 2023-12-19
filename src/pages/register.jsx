@@ -3,14 +3,9 @@ import FormRegister from "../components/Fragments/FormRegister";
 
 const RegisterPage = () => {
   return (
-    <AuthLayout title="Register">
+    // Reminder to set type for conditonal rendering
+    <AuthLayout title="Register" type="register">
       <FormRegister />
-      <p className="mt-5 text-center">
-        Do you have an account?{" "}
-        <a href="/" className="text-blue-500 font-semibold">
-          Sign In
-        </a>
-      </p>
     </AuthLayout>
   );
 };
